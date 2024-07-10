@@ -3,12 +3,27 @@ body {
   background-color: blueviolet;
 }
 
+.data-side {
+  margin-bottom: 10px;
+}
+
+.play-x,
+.play-y {
+  font-family: Arial;
+  font-weight: bold;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
 .cell {
+  font-size: 40px;
   border: 1px solid black;
   text-align: center;
   width: 100px;
   height: 100px;
   cursor: pointer;
+  display: grid;
+  align-items: center;
 }
 
 .cell:hover {
